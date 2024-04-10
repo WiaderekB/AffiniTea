@@ -2,3 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+.photo{
+    @apply absolute hover:scale-110 top-0 transition-all origin-bottom cursor-pointer before:block before:absolute before:top-1/2 before:left-1/2 before:h-1/2 before:content-[""] before:w-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:transition-all before:-z-10 ease-out duration-300 before:ease-out before:duration-300
+}
+
+
+.photo:hover::before {
+    -webkit-box-shadow:0px 0px 112px 8px rgba(255,255,255,0.5);
+-moz-box-shadow: 0px 0px 112px 8px rgba(255,255,255,0.5);
+box-shadow: 0px 0px 112px 8px rgba(255,255,255,0.5);
+}
