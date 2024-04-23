@@ -13,7 +13,7 @@ export default function Home() {
 					loadedCount >= 12 ? "opacity-100 blur-0" : "opacity-0 blur-lg"
 				}`}
 			>
-				<Image className="w-full" src={"/main.png"} alt="Shelve" width={500} height={400} onLoad={() => setLoadedCount((old) => (old += 1))} />
+				<Image className="w-full" src={"/main.png"} alt="Shelve" width={1080} height={1920} onLoad={() => setLoadedCount((old) => (old += 1))} />
 
 				{/* First row */}
 				<div className="photo w-[31%] translate-x-[75%] translate-y-[20%]">
